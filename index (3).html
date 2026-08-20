@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Access Dashboard</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #1a1a1a;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1100px;
+        }
+
+        h1 {
+            margin-bottom: 36px;
+            font-size: 2rem;
+            color: #1a1a1a;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            color: #333333;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            border-bottom: 2px solid #e1e4e8;
+            padding-bottom: 8px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 16px;
+            width: 100%;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #e1e4e8;
+            border-radius: 10px;
+            padding: 16px;
+            text-decoration: none;
+            color: #1a1a1a;
+            font-weight: 600;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+            transition: all 0.2s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 70px;
+        }
+
+        .card:hover {
+            background-color: #0070f3;
+            color: #ffffff;
+            border-color: #0070f3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 112, 243, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to the Quick Access Dashboard 🚀</h1>
+
+        <!-- Everyday Necessities -->
+        <h2 class="section-title">Everyday Necessities</h2>
+        <div class="grid">
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1Fuua1iJ1-4mhTbJnz3GxcuanATzDO4Prs5yetfiIbA8/edit?pli=1&gid=270634313#gid=270634313" target="_blank" rel="noopener noreferrer">ISR Office</a>
+            <a class="card" href="https://ops.doordash.team/astra/home" target="_blank" rel="noopener noreferrer">Astra</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1W7arC25-s5cGvOuaPOj6s2AlDQ13z3Ab-2fDeMsgtG8/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer">Break Control Panel</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1ccDCxXGDhFSWtfS7G--VDbI3jWEsUQcNl16J8oEyeGY/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer">SL Break Sheet</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1jdhF8JLsl-Dat-SDlsLK9IpAJUE2iQ5cP7PpIAxD_p8/edit?gid=2089645606#gid=2089645606" target="_blank" rel="noopener noreferrer">QA List</a>
+            <a class="card" href="https://wolt.slack.com/archives/C064LNGLQ1Y/p1780301189536719" target="_blank" rel="noopener noreferrer">Every Office Sheet</a>
+        </div>
+
+        <!-- Second Priority -->
+        <h2 class="section-title">Second Priority</h2>
+        <div class="grid">
+            <a class="card" href="https://docs.google.com/spreadsheets/d/18RUBvoHBg5_C-Jeckbye3vgU2n5KJMMn7nCWnXzcgec/edit?gid=1770190264#gid=1770190264" target="_blank" rel="noopener noreferrer">SA OT Sheet</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1obB8YX7zGMkYGGUlOisC4nNPwvaH614SErDoWs4nu2Q/edit?gid=1426263582#gid=1426263582" target="_blank" rel="noopener noreferrer">SL OT Sheet</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1-toSqw7Uq9PxFGTbhEOUbx6WaLWpSTne8Fu5-rbadBs/edit?pli=1&gid=0#gid=0" target="_blank" rel="noopener noreferrer">Team Division</a>
+            <a class="card" href="https://wd3-identity.myworkday.com/wday/authgwy/wolt/upc/login" target="_blank" rel="noopener noreferrer">Workday</a>
+            <a class="card" href="https://app.glean.com/search?qe=https%3A%2F%2Fdoordash-be.glean.com" target="_blank" rel="noopener noreferrer">Glean</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1DDFGO-ukBKQGKesdFuyWSR4zWuFaG8utY_ngUk0hbYo/edit?gid=1895822202#gid=1895822202" target="_blank" rel="noopener noreferrer">CS Comp. Chart</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/19Lbw6b6UMLizKbY0YYfwJNRUq9bGd0fds5zsSAOh1Ps/edit?gid=1574718796#gid=1574718796" target="_blank" rel="noopener noreferrer">CP Comp. Chart</a>
+            <a class="card" href="https://forms.monday.com/forms/a124738c40942fff81c2a150570b48a4?r=use1" target="_blank" rel="noopener noreferrer">CP Monday</a>
+            <a class="card" href="https://forms.monday.com/forms/cf21fd36a83c064703a22a5c3c23fda7?r=use1" target="_blank" rel="noopener noreferrer">VN Monday</a>
+        </div>
+
+        <!-- Overall Necessities -->
+        <h2 class="section-title">Overall Necessities</h2>
+        <div class="grid">
+            <a class="card" href="https://forms.monday.com/forms/cabba713253358da4c06bdca8b8bd666?r=use1" target="_blank" rel="noopener noreferrer">Failed Payment Form</a>
+            <a class="card" href="https://wolt-team.myfreshworks.com/login?client_id=134315043955409715&redirect_uri=https%3A%2F%2Fwolt.freshservice.com%2Ffreshid%2Fauthorize_callback%3Fhd%3Dwolt.freshservice.com&account_id=231025409893107652&target_portal=https%3A%2F%2Fwolt.freshservice.com" target="_blank" rel="noopener noreferrer">Freshservice</a>
+            <a class="card" href="https://wolt-team.myfreshworks.com/login?client_id=134315043955409715&redirect_uri=https%3A%2F%2Fwolt.freshservice.com%2Ffreshid%2Fauthorize_callback%3Fhd%3Dwolt.freshservice.com&account_id=231025409893107652&target_portal=https%3A%2F%2Fwolt.freshservice.com" target="_blank" rel="noopener noreferrer">MFA Reset</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1ylwRAlIkaYLruufN81YuWYJM9vAPmmcQ-hqPY3wTsmc/edit?pli=1&gid=0#gid=0" target="_blank" rel="noopener noreferrer">TU Report</a>
+            <a class="card" href="https://ops.wolt.com/support/converse/conversations?venueId=66efcadcaae18c33e10d9e13&contactExternalId=66efcadcaae18c33e10d9e13&entryTabId=venue" target="_blank" rel="noopener noreferrer">Giraffe Support Chat</a>
+            <a class="card" href="https://docs.google.com/presentation/d/1_idLxc0EZGvEzdB2wfWeOxRBKveYejUcIZP75KVUfKk/edit?slide=id.p1#slide=id.p1" target="_blank" rel="noopener noreferrer">SL Onboarding Presentation</a>
+            <a class="card" href="https://www.curated-ai.io/dashboard2?view=chat" target="_blank" rel="noopener noreferrer">CuratedAI</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1NIpMTfbxx8T1cGjH9JxzkDZujpnsi3sk-lApNc6l35g/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer">PRO Report Sheet</a>
+            <a class="card" href="https://docs.google.com/spreadsheets/d/1tOUEPZp1N7eOBQiFMLAedLFSkUPqNlxmLwXaGXl8F2Q/edit?gid=930120190#gid=930120190" target="_blank" rel="noopener noreferrer">Approved OT Data</a>
+            <a class="card" href="https://docs.google.com/document/d/1FDR676_MZRmZNLiFrprNAxvKN6Nx3nCVXAvZOEcERi0/edit?tab=t.0" target="_blank" rel="noopener noreferrer">OT Guidebook</a>
+        </div>
+    </div>
+
+</body>
+</html>
